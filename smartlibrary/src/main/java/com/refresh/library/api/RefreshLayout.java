@@ -391,9 +391,6 @@ public interface RefreshLayout {
 
     /**
      * Set up a multi-function listener.
-     * Recommended {@link com.scwang.smartrefresh.layout.listener.SimpleMultiPurposeListener}
-     * 设置多功能监听器
-     * 建议使用 {@link com.scwang.smartrefresh.layout.listener.SimpleMultiPurposeListener}
      * @param listener OnMultiPurposeListener 多功能监听器
      * @return RefreshLayout
      */
@@ -401,9 +398,6 @@ public interface RefreshLayout {
 
     /**
      * Set the scroll boundary Decider, Can customize when you can refresh.
-     * Recommended {@link com.scwang.smartrefresh.layout.impl.ScrollBoundaryDeciderAdapter}
-     * 设置滚动边界判断器
-     * 建议使用 {@link com.scwang.smartrefresh.layout.impl.ScrollBoundaryDeciderAdapter}
      * @param boundary ScrollBoundaryDecider 判断器
      * @return RefreshLayout
      */

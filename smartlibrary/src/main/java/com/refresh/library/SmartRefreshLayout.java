@@ -2587,9 +2587,6 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
 
     /**
      * Set up a multi-function listener.
-     * Recommended {@link com.scwang.smartrefresh.layout.listener.SimpleMultiPurposeListener}
-     * 设置多功能监听器
-     * 建议使用 {@link com.scwang.smartrefresh.layout.listener.SimpleMultiPurposeListener}
      * @param listener OnMultiPurposeListener 多功能监听器
      * @return RefreshLayout
      */
@@ -2636,9 +2633,6 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
 
     /**
      * Set the scroll boundary Decider, Can customize when you can refresh.
-     * Recommended {@link com.scwang.smartrefresh.layout.impl.ScrollBoundaryDeciderAdapter}
-     * 设置滚动边界判断器
-     * 建议使用 {@link com.scwang.smartrefresh.layout.impl.ScrollBoundaryDeciderAdapter}
      * @param boundary ScrollBoundaryDecider 判断器
      * @return RefreshLayout
      */
@@ -3427,8 +3421,6 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
 
         /**
          * 移动滚动 Scroll
-         * moveSpinner 的取名来自 谷歌官方的 {@link android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
-         * moveSpinner The name comes from {@link android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
          * @param spinner 新的 spinner
          * @param isDragging 是否是拖动产生的滚动
          *                   只有，finishRefresh，finishLoadMore，overSpinner 的回弹动画才会是 false
