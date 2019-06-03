@@ -18,6 +18,12 @@ allprojects {
 在module的builder.gradle中
 ```
     dependencies {
-    	implementation 'com.github.flyingtercel:SmartRefreshLayout:1.0.4'
+    	implementation 'com.github.flyingtercel:SmartRefreshLayout:1.0.6'
     }
+```
+
+## 说明：
+```
+ 版本：1.0.5     显示加载完成和刷新完成
+ 版本：1.0.6     不显示加载完成和刷新完成
 ```
