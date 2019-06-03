@@ -47,7 +47,7 @@ public abstract class InternalClassics<T extends InternalClassics> extends Inter
     protected boolean mSetAccentColor;
     protected boolean mSetPrimaryColor;
     protected int mBackgroundColor;
-    protected int mFinishDuration = 500;
+    protected int mFinishDuration = 0;
     protected int mPaddingTop = 20;
     protected int mPaddingBottom = 20;
     protected int mMinHeightOfContent = 0;
