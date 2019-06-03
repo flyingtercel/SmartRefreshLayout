@@ -99,10 +99,10 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
     protected char mDragDirection = 'n';//拖动的方向 none-n horizontal-h vertical-v
     protected boolean mIsBeingDragged;//是否正在拖动
     protected boolean mSuperDispatchTouchEvent;//父类是否处理触摸事件
-    protected int mFixedHeaderViewId = View.NO_ID;//固定在头部的视图Id
-    protected int mFixedFooterViewId = View.NO_ID;//固定在底部的视图Id
-    protected int mHeaderTranslationViewId = View.NO_ID;//下拉Header偏移的视图Id
-    protected int mFooterTranslationViewId = View.NO_ID;//下拉Footer偏移的视图Id
+    protected int mFixedHeaderViewId = View.NO_ID;
+    protected int mFixedFooterViewId = View.NO_ID;
+    protected int mHeaderTranslationViewId = View.NO_ID;
+    protected int mFooterTranslationViewId = View.NO_ID;
 
     protected int mMinimumVelocity;
     protected int mMaximumVelocity;
