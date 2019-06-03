@@ -18,6 +18,6 @@ allprojects {
 在module的builder.gradle中
 ```
     dependencies {
-	    implementation 'com.github.flyingtercel:SmartRefreshLayout:Tag'
+    	implementation 'com.github.flyingtercel:SmartRefreshLayout:1.0.4'
     }
 ```
